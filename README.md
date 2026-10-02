@@ -4,8 +4,6 @@ Explore La Paz, Bolivia, through an interactive map of its macrodistricts, distr
 
 **8 macrodistricts · 22 districts · 188 zones** in the bundled dataset.
 
-<!-- Add a real screenshot here once saved: ![La Paz map and macrodistrict list](docs/screenshots/overview.png) -->
-
 ## Explore the map
 
 1. Select a macrodistrict on the map or in the side panel.
