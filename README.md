@@ -26,6 +26,32 @@ On narrow screens, the map appears above the independently scrollable informatio
 - Responsive layout and visible keyboard focus for panel and breadcrumb controls.
 - Static GeoJSON data: no application backend or database connection at runtime.
 
+## Screenshots
+
+### Macrodistricts
+
+![Macrodistricts](docs/screenshots/01-macrodistricts.png)
+
+Overview of La Paz and its macrodistricts.
+
+### Districts
+
+![Districts](docs/screenshots/02-districts.png)
+
+Districts within the selected macrodistrict.
+
+### Zones
+
+![Zones](docs/screenshots/03-zones.png)
+
+Zones within the selected district.
+
+### Selected Zone
+
+![Selected Zone](docs/screenshots/04-selected-zone.png)
+
+Highlighted zone with its area and location in the hierarchy.
+
 ## Run locally
 
 Install **Node.js 22.12 or newer** and npm. From the project directory:
@@ -81,9 +107,3 @@ The source describes zone boundaries as **referential**. This portfolio visualiz
 The background map uses **© [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)**, independently of the administrative polygons.
 
 See [data provenance](docs/DATA_SOURCES.md) for source dates and details about the derived layers.
-
-## Scope and remaining work
-
-The core exploration flow, keyboard panel navigation and responsive layout are implemented. The project has not yet been deployed.
-
-Before publishing, I plan to add screenshots, review the initial bundle size, and finish setting up the repository and deployment. The current build reports a large JavaScript chunk because the geographic data is bundled with the frontend.
